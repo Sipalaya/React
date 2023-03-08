@@ -1,0 +1,30 @@
+- html css js
+- React - lightweight frontend library
+- Angular, Vuejs - Framework
+- React uses virtual dom
+- <html>
+<head></head>
+<body>
+....
+</body>
+
+</html>
+DOM
+-  html
+    |
+    head
+    |
+    body
+
+-Reaact app architecture
+            app
+    NavBar Profile Feed Tweets Like
+
+Steps
+1. Setup the dev env
+a. npm i -g create-react-app  --> create-react-app app_name
+OR
+b. npx create-react-app app_name
+
+
+State and Props
