@@ -25,7 +25,7 @@ function NavBar() {
           <Nav className='me-auto'>
             {links.map((linkelement) => {
               return (
-                <Nav.Link>
+                <Nav.Link key={linkelement.pathname}>
                   <NavLink to={linkelement.path}>
                     {linkelement.pathname}
                   </NavLink>
